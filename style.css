@@ -1,12 +1,44 @@
 body
 {
-   background-color:#fff3ef ; 
+   background-color:#93e1d8 ; 
 }
 @font-face
 {
    font-family: "caveat font";
    src:url('caveat.ttf') format('truetype');
+   font-family: "itim font";
+   src: url('itim.ttf') format('truetype');
 }
+header
+{
+background-color: #746c73;
+height:125px;
+}
+footer
+{
+   background-color: #746c73;
+   height:175px;
+   clear:left;
+}
+h1
+{
+   position: relative;
+   text-align: center;
+   line-height: 120px;
+   letter-spacing: 4px;
+   font-size: 50px;
+   font-family:'itim';
+   color: #343235;
+}
+nav
+{
+   font-size: x-large;
+   letter-spacing: 2px;
+   float: right;  
+   margin-right: 50px;
+
+}
+
 img
 {
    position: relative;
@@ -16,7 +48,7 @@ img
 figure
 {
    border: 5px black solid;
-   padding: 10px;
+   padding: 10px
 }
 #lab, #beagle, #havanese, #morkie, #engbull, #dolly, #fincher, #jill, #razor, #ronan
 {
@@ -31,8 +63,8 @@ figure
 figcaption
 {
    text-align: center;
-   font-family:'caveat';
+   font-family:'itim';
    font-weight: bolder;
-   font-size: larger;
-
+   font-size: medium;
+   letter-spacing: 3px;
 }
