@@ -1,4 +1,38 @@
 body
 {
-    
+   background-color:#fff3ef ; 
+}
+@font-face
+{
+   font-family: "caveat font";
+   src:url('caveat.ttf') format('truetype');
+}
+img
+{
+   position: relative;
+   width: 460px;
+   height: 250px;
+}
+figure
+{
+   border: 5px black solid;
+   padding: 10px;
+}
+#lab, #beagle, #havanese, #morkie, #engbull, #dolly, #fincher, #jill, #razor, #ronan
+{
+   float: left;
+   margin-left: 7%;
+}
+#husky, #goldlab, #shihtzu, #yorkiepoo, #russell, #emma, #jax, #oreo, #river, #zora
+{
+   float:right;
+   margin-right: 7%;
+}
+figcaption
+{
+   text-align: center;
+   font-family:'caveat';
+   font-weight: bolder;
+   font-size: larger;
+
 }
