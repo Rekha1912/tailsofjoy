@@ -1,6 +1,6 @@
-body
+body.dogpage
 {
-   background-color:#93e1d8 ; 
+   background-color:#a9f8fb ; 
 }
 @font-face
 {
@@ -47,7 +47,7 @@ img
 }
 figure
 {
-   border: 5px black solid;
+   border: 5px #264653 solid;
    padding: 10px
 }
 #lab, #beagle, #havanese, #morkie, #engbull, #dolly, #fincher, #jill, #razor, #ronan
@@ -67,4 +67,5 @@ figcaption
    font-weight: bolder;
    font-size: medium;
    letter-spacing: 3px;
+   color: #264653;
 }
