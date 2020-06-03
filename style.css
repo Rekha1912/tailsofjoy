@@ -1,6 +1,49 @@
-body.dogpage
+body
 {
-   background-color:#a9f8fb ; 
+   background-color: cornsilk;
+   padding: 10px;
+}
+header
+{
+   background-color: darksalmon;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-top: 10px;
+   height:175px;  
+   padding-top: 50px;
+
+}
+nav
+{
+   font-size: x-large;
+   letter-spacing: 1px;
+   float: right;  
+   margin-right: 30px;
+}
+ul
+{
+   list-style-type: none;
+}
+.carousel-inner img 
+{
+   width: 70%;
+   height: 70%;
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+}
+footer
+{
+   background-color: darksalmon;
+   margin-left: 30px;
+   margin-right: 30px;
+   padding-top: 15px;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+body.dogpage   
+{
+   background-color: #b4fadc;
 }
 @font-face
 {
@@ -9,14 +52,19 @@ body.dogpage
    font-family: "itim font";
    src: url('itim.ttf') format('truetype');
 }
-header
+header.dogpage
 {
-background-color: #746c73;
+background-color: #ff5d8f;
 height:125px;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 10px;
 }
-footer
+footer.dogpage
 {
-   background-color: #746c73;
+   background-color: #ff5d8f;
    height:175px;
    clear:left;
 }
@@ -24,19 +72,21 @@ h1
 {
    position: relative;
    text-align: center;
-   line-height: 120px;
    letter-spacing: 4px;
    font-size: 50px;
    font-family:'itim';
    color: #343235;
 }
-nav
-{
-   font-size: x-large;
-   letter-spacing: 2px;
-   float: right;  
-   margin-right: 50px;
 
+a
+{
+   text-decoration: none;
+   color:black;
+}
+a:hover
+{
+   text-decoration: underline;
+   color: fuchsia;
 }
 
 img
@@ -53,12 +103,12 @@ figure
 #lab, #beagle, #havanese, #morkie, #engbull, #dolly, #fincher, #jill, #razor, #ronan
 {
    float: left;
-   margin-left: 7%;
+   margin-left:6%;
 }
 #husky, #goldlab, #shihtzu, #yorkiepoo, #russell, #emma, #jax, #oreo, #river, #zora
 {
    float:right;
-   margin-right: 7%;
+   margin-right:6%;
 }
 figcaption
 {
