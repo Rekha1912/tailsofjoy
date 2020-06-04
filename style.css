@@ -1,6 +1,6 @@
 body
 {
-   background-color:#DCFFF5;
+   background-color:#E6FFF8;
    padding: 10px;
 }
 @font-face
@@ -9,8 +9,6 @@ body
    src:url('caveat.ttf') format('truetype');
    font-family: "itim font";
    src: url('itim.ttf') format('truetype');
-   font-family: "aclonica font";
-   src:url('aclonica.ttf') format('truetype');
 }
 h1
 {
@@ -32,8 +30,9 @@ nav
    letter-spacing: 1px;
    float: right;  
    margin-right: 5px;
+   border-radius: 20px;
    border: 2px black double;
-   padding: 10px;
+   padding: 15px;
    background-color: #fdab9f;
 }
 a
@@ -54,27 +53,27 @@ a:hover
    margin-left: auto;
    margin-right: auto;
 }
-footer
+.health
 {
    background-color: #fdab9f;
+   border-radius: 20px;
    margin-left: 20px;
    margin-right: 20px;
    padding-top: 15px;
-   padding-left: 60px;
+   padding-left: 50px;
    padding-right: 30px;
    padding-bottom: 15px;
    height: auto;
+   text-align: center;
+   font-family:'itim';
+   font-size: large;
 }
 .care
 {
    width: 90px;
    height: 90px;
-   position: static;
-
-}
-h2
-{
-   font-family: Arial, Helvetica, sans-serif;
+   display:block;
+   margin-right: auto;
 }
 .quotes 
 {
@@ -99,7 +98,9 @@ img
 }
 figure
 {
-   border: 3px #264653 solid;
+   background-color: #fAF7F1;
+   border: 2px #264653 solid;
+   border-radius: 20px;
    padding: 10px
 }
 #lab, #beagle, #havanese, #morkie, #engbull, #dolly, #fincher, #jill, #razor, #ronan
