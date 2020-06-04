@@ -1,49 +1,7 @@
 body
 {
-   background-color: cornsilk;
+   background-color:#DCFFF5;
    padding: 10px;
-}
-header
-{
-   background-color: darksalmon;
-   margin-left: 30px;
-   margin-right: 30px;
-   margin-top: 10px;
-   height:175px;  
-   padding-top: 50px;
-
-}
-nav
-{
-   font-size: x-large;
-   letter-spacing: 1px;
-   float: right;  
-   margin-right: 30px;
-}
-ul
-{
-   list-style-type: none;
-}
-.carousel-inner img 
-{
-   width: 70%;
-   height: 70%;
-   display:block;
-   margin-left: auto;
-   margin-right: auto;
-}
-footer
-{
-   background-color: darksalmon;
-   margin-left: 30px;
-   margin-right: 30px;
-   padding-top: 15px;
-   padding-left: 30px;
-   padding-right: 30px;
-}
-body.dogpage   
-{
-   background-color: #b4fadc;
 }
 @font-face
 {
@@ -52,32 +10,30 @@ body.dogpage
    font-family: "itim font";
    src: url('itim.ttf') format('truetype');
 }
-header.dogpage
-{
-background-color: #ff5d8f;
-height:125px;
-margin-left: 50px;
-margin-right: 50px;
-margin-top: 10px;
-margin-bottom: 10px;
-padding: 10px;
-}
-footer.dogpage
-{
-   background-color: #ff5d8f;
-   height:175px;
-   clear:left;
-}
 h1
 {
    position: relative;
-   text-align: center;
-   letter-spacing: 4px;
-   font-size: 50px;
-   font-family:'itim';
+   letter-spacing: 3px;
+   font-size: 60px;
+   font-family:'caveat';
+   font-weight: bolder;
    color: #343235;
 }
-
+#paw
+{
+   height: 100px;
+   width: 100px;
+}
+nav
+{
+   font-size: x-large;
+   letter-spacing: 1px;
+   float: right;  
+   margin-right: 5px;
+   border: 2px black double;
+   padding: 10px;
+   background-color: #fdab9f;
+}
 a
 {
    text-decoration: none;
@@ -85,9 +41,41 @@ a
 }
 a:hover
 {
-   text-decoration: underline;
-   color: fuchsia;
+   text-decoration:underline;
+   color:#ff686b;
 }
+.carousel-inner img 
+{
+   width: 100%;
+   height: 100%;
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+footer
+{
+   background-color: #fdab9f;
+   margin-left: 20px;
+   margin-right: 20px;
+   padding-top: 15px;
+   padding-left: 60px;
+   padding-right: 30px;
+   padding-bottom: 15px;
+   height: auto;
+}
+.care
+{
+   width: 90px;
+   height: 90px;
+   position: static;
+
+}
+ul
+{
+   list-style-type: none;
+}
+
 
 img
 {
@@ -97,7 +85,7 @@ img
 }
 figure
 {
-   border: 5px #264653 solid;
+   border: 3px #264653 solid;
    padding: 10px
 }
 #lab, #beagle, #havanese, #morkie, #engbull, #dolly, #fincher, #jill, #razor, #ronan
@@ -119,3 +107,5 @@ figcaption
    letter-spacing: 3px;
    color: #264653;
 }
+
+
