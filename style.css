@@ -1,7 +1,7 @@
 body
 {
    background-color:#E6FFF8;
-   padding: 10px;
+   padding: 2vw;
 }
 @font-face
 {
@@ -24,16 +24,17 @@ h1
    height: 100px;
    width: 100px;
 }
-nav
+.nav
 {
    font-size: x-large;
    letter-spacing: 1px;
-   float: right;  
-   margin-right: 5px;
+   margin-left:42vw;
+   margin-right:1vw;
    border-radius: 20px;
    border: 2px black double;
-   padding: 15px;
+   padding: 2vw;
    background-color: #fdab9f;
+   margin-bottom: 2vw;
 }
 a
 {
@@ -52,13 +53,13 @@ a:hover
    display:block;
    margin-left: auto;
    margin-right: auto;
+
 }
 .health
 {
    background-color: #fdab9f;
    border-radius: 20px;
-   margin-left: 20px;
-   margin-right: 20px;
+   margin: 2vw;
    padding-top: 15px;
    padding-left: 50px;
    padding-right: 30px;
@@ -80,16 +81,17 @@ a:hover
    font-family:"Comic Sans MS", cursive, sans-serif;
    font-size: 35px;
    text-align: center;
-   padding: 40px;
-   margin-left: 50px;
-   margin-right: 50px;
+   padding: 3vw;
+   margin-left: 60px;
+   margin-right: 60px;
+   clear: both;
+   margin-top: 1vw;
+   margin-bottom: 1vw;
 }
 ul
 {
    list-style-type: none;
 }
-
-
 img
 {
    position: relative;
@@ -101,7 +103,7 @@ figure
    background-color: #fAF7F1;
    border: 2px #264653 solid;
    border-radius: 20px;
-   padding: 10px
+   padding: 2vw
 }
 #lab, #beagle, #havanese, #morkie, #engbull, #dolly, #fincher, #jill, #razor, #ronan
 {
@@ -122,5 +124,27 @@ figcaption
    letter-spacing: 3px;
    color: #264653;
 }
+#userdetails
+{
+   margin: 5vw;
+   margin-left: 10vw;
+   margin-right: 10vw;
+   padding: 7vw;
+   background-color: #fAF7F1;
+   border: 2px black solid;
+   font-size: 20px;
+   font-family: 'itim';
+   color: #264653;
+   clear: both;
+}
+legend
+{
+   text-align: center;
+   font-family: 'itim';
+   font-size: xx-large;
+   color: #264653;
+   font-weight: bolder;
+}
+
 
 
