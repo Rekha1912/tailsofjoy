@@ -1,8 +1,8 @@
 body
 {
-   background-color:#E6FFF8;
-   background-image: url(backimg.png);
+   background-image: url("../images/background.png");
    background-repeat: repeat;
+   background-color: #E6FFF8;
 }
 @font-face
 {
@@ -66,7 +66,7 @@ a:hover
    margin-right: 8vw;
    height: auto;
    padding: 4vw;
-   background-image: url('back.jpg');
+   background-image: url("../images/about.jpg");
    background-size: cover;
    background-attachment: fixed;
    border-radius: 10px;
